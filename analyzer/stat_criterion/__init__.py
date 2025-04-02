@@ -1,1 +1,2 @@
 from .stat_criteria import StatCriteria
+from .analyser_timeseries_custom import AnalyserTimeSeriesCustom

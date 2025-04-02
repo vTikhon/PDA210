@@ -1,6 +1,8 @@
 import logging
 import os
 import sys
+from idlelib.iomenu import encoding
+
 import pandas as pd
 from sklearn.utils import shuffle
 

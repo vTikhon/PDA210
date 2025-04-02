@@ -129,3 +129,14 @@
 2025-03-11 17:22:43,963 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
 2025-03-11 17:22:59,148 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
 2025-03-11 17:22:59,216 - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-04-02 10:45:57,354 - DEBUG - cmd: where.exe tbb.dll
+cwd: None
+2025-04-02 10:45:57,399 - DEBUG - Adding TBB (C:\Users\Tikhon\Documents\PycharmProjects\PDA210\.venv\Lib\site-packages\prophet\stan_model\cmdstan-2.33.1\stan\lib\stan_math\lib\tbb) to PATH
+2025-04-02 10:45:57,403 - INFO - Disabling daily seasonality. Run prophet with daily_seasonality=True to override this.
+2025-04-02 10:45:57,413 - DEBUG - input tempfile: C:\Users\Tikhon\AppData\Local\Temp\tmp8q8tv63q\2t1eylzb.json
+2025-04-02 10:45:57,420 - DEBUG - input tempfile: C:\Users\Tikhon\AppData\Local\Temp\tmp8q8tv63q\xft30ayv.json
+2025-04-02 10:45:57,421 - DEBUG - idx 0
+2025-04-02 10:45:57,421 - DEBUG - running CmdStan, num_threads: None
+2025-04-02 10:45:57,421 - DEBUG - CmdStan args: ['C:\\Users\\Tikhon\\Documents\\PycharmProjects\\PDA210\\.venv\\Lib\\site-packages\\prophet\\stan_model\\prophet_model.bin', 'random', 'seed=54731', 'data', 'file=C:\\Users\\Tikhon\\AppData\\Local\\Temp\\tmp8q8tv63q\\2t1eylzb.json', 'init=C:\\Users\\Tikhon\\AppData\\Local\\Temp\\tmp8q8tv63q\\xft30ayv.json', 'output', 'file=C:\\Users\\Tikhon\\AppData\\Local\\Temp\\tmp8q8tv63q\\prophet_model_2xyflkk\\prophet_model-20250402104557.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+2025-04-02 10:45:57,421 - INFO - Chain [1] start processing
+2025-04-02 10:45:57,484 - INFO - Chain [1] done processing
