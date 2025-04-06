@@ -70,11 +70,6 @@ class Drawer:
                 sns.barplot(data=df, x=column, y=target_col, palette='Set2')
                 plt.title(f"Barplot - {column} vs {target_col}")
                 Drawer.auto_rotate_xticks()
-            else:
-                plt.subplot(1, 2, 2)
-                sns.countplot(data=df, x=column, color='lightcoral')
-                plt.title(f"Countplot - {column} (no target)")
-                Drawer.auto_rotate_xticks()
 
             plt.tight_layout()
             plt.show()
